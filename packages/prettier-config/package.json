@@ -1,6 +1,6 @@
 {
   "name": "@frenco/prettier-config",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "license": "MIT",
   "author": "Frenco <hey@frenco.dev>",
   "main": "./index.js",
