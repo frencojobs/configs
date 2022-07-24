@@ -1,0 +1,21 @@
+{
+  "name": "@frenco/prettier-config",
+  "version": "0.0.0",
+  "license": "MIT",
+  "author": "Frenco <hey@frenco.dev>",
+  "main": "./index.js",
+  "files": [
+    "index.js"
+  ],
+  "dependencies": {
+    "prettier-plugin-organize-imports": "^3.0.0",
+    "prettier-plugin-packagejson": "^2.2.18"
+  },
+  "peerDependencies": {
+    "prettier": ">=2.7.1",
+    "typescript": ">=4.7.4"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

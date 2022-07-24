@@ -1,0 +1,19 @@
+{
+  "name": "configs",
+  "version": "0.0.0",
+  "private": true,
+  "license": "MIT",
+  "author": "Frenco <hey@frenco.dev>",
+  "scripts": {
+    "format": "prettier -w . --cache",
+    "version": "changeset version && pnpm install --no-frozen-lockfile && pnpm run format"
+  },
+  "prettier": "@frenco/prettier-config",
+  "devDependencies": {
+    "@changesets/cli": "^2.23.2",
+    "@frenco/prettier-config": "workspace:*",
+    "prettier": "^2.7.1",
+    "typescript": "^4.7.4"
+  },
+  "packageManager": "pnpm@7.6.0"
+}
