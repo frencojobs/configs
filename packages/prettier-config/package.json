@@ -1,6 +1,16 @@
 {
   "name": "@frenco/prettier-config",
   "version": "1.0.0",
+  "description": "My configuration preset for prettier",
+  "keywords": [
+    "prettier",
+    "prettier-config"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/frencojobs/configs.git",
+    "directory": "packages/prettier-config"
+  },
   "license": "MIT",
   "author": "Frenco <hey@frenco.dev>",
   "main": "./index.js",

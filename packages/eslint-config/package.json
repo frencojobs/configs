@@ -1,6 +1,16 @@
 {
   "name": "@frenco/eslint-config",
   "version": "1.0.0",
+  "description": "My configuration preset for eslint",
+  "keywords": [
+    "eslint",
+    "eslint-config"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/frencojobs/configs.git",
+    "directory": "packages/eslint-config"
+  },
   "license": "MIT",
   "author": "Frenco <hey@frenco.dev>",
   "main": "./index.js",
