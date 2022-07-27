@@ -1,6 +1,6 @@
 {
   "name": "@frenco/eslint-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "My configuration preset for eslint",
   "keywords": [
     "eslint",
