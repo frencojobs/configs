@@ -4,7 +4,7 @@ const overridableDefaults = {
   endOfLine: 'lf',
   tabWidth: 2,
   printWidth: 80,
-  useTabs: false
+  useTabs: false,
 }
 
 /** @type {import('prettier').Config} */
@@ -20,6 +20,6 @@ module.exports = {
   trailingComma: 'all',
   plugins: [
     require.resolve('prettier-plugin-packagejson'),
-    require.resolve('prettier-plugin-organize-imports')
-  ]
+    require.resolve('prettier-plugin-organize-imports'),
+  ],
 }
