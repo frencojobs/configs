@@ -1,5 +1,11 @@
 # @frenco/eslint-config
 
+## 1.1.0
+
+### Minor Changes
+
+- 304b7b9: Turn off `@typescript-eslint/no-non-null-assertion` rule.
+
 ## 1.0.1
 
 ### Patch Changes
