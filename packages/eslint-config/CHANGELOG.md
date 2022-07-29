@@ -1,5 +1,11 @@
 # @frenco/eslint-config
 
+## 2.0.0
+
+### Major Changes
+
+- 2918778: Separate the eslint config between tests and non-test files, and make only non-test files to use strict eslint rules.
+
 ## 1.1.0
 
 ### Minor Changes
