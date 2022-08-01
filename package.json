@@ -1,6 +1,5 @@
 {
   "name": "configs",
-  "version": "0.0.0",
   "private": true,
   "license": "MIT",
   "author": "Frenco <hey@frenco.dev>",
@@ -10,10 +9,10 @@
   },
   "prettier": "@frenco/prettier-config",
   "devDependencies": {
-    "@changesets/cli": "^2.23.2",
+    "@changesets/cli": "^2.24.1",
     "@frenco/prettier-config": "workspace:*",
     "prettier": "^2.7.1",
     "typescript": "^4.7.4"
   },
-  "packageManager": "pnpm@7.6.0"
+  "packageManager": "pnpm@7.7.0"
 }
