@@ -1,5 +1,11 @@
 # @frenco/eslint-config
 
+## 2.1.0
+
+### Minor Changes
+
+- b065d44: Add `without-type-checking` config to ESLint package to allow extending the config without requiring to setup TypeScript.
+
 ## 2.0.0
 
 ### Major Changes
