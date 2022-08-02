@@ -1,0 +1,24 @@
+{
+  "name": "@frenco/tsconfig",
+  "version": "0.0.0",
+  "description": "My TypeScript configurations",
+  "keywords": [
+    "typescript",
+    "tsconfig"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/frencojobs/configs.git",
+    "directory": "packages/tsconfig"
+  },
+  "license": "MIT",
+  "author": "Frenco <hey@frenco.dev>",
+  "files": [
+    "base.json",
+    "next.json",
+    "node.json"
+  ],
+  "peerDependencies": {
+    "typescript": ">=4.7.4"
+  }
+}
