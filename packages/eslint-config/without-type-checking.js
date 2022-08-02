@@ -1,6 +1,5 @@
 /** @type {import('eslint').Linter.Config} */
 module.exports = {
-  root: true,
   parser: '@typescript-eslint/parser',
   plugins: ['@typescript-eslint'],
   rules: {
@@ -13,7 +12,6 @@ module.exports = {
 
     // from typescript-eslint plugin
     'plugin:@typescript-eslint/recommended',
-    'plugin:@typescript-eslint/recommended-requiring-type-checking',
 
     // make prettier work with eslint
     'plugin:prettier/recommended',

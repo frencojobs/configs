@@ -13,9 +13,10 @@
   },
   "license": "MIT",
   "author": "Frenco <hey@frenco.dev>",
-  "main": "./index.js",
+  "main": "./with-type-checking.js",
   "files": [
-    "index.js"
+    "with-type-checking.js",
+    "without-type-checking.js"
   ],
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^5.30.6",
