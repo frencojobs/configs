@@ -9,10 +9,10 @@
   },
   "prettier": "@frenco/prettier-config",
   "devDependencies": {
-    "@changesets/cli": "^2.24.1",
+    "@changesets/cli": "^2.26.2",
     "@frenco/prettier-config": "workspace:*",
-    "prettier": "^2.7.1",
-    "typescript": "^4.7.4"
+    "prettier": "^2.8.8",
+    "typescript": "^5.1.6"
   },
-  "packageManager": "pnpm@7.7.0"
+  "packageManager": "pnpm@8.6.6"
 }
