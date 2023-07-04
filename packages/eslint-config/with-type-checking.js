@@ -7,4 +7,9 @@ module.exports = {
     ...base.extends,
     'plugin:@typescript-eslint/recommended-requiring-type-checking',
   ],
+  rules: {
+    ...base.rules,
+    '@typescript-eslint/consistent-type-exports': 'error',
+    '@typescript-eslint/consistent-type-imports': 'error',
+  },
 }
