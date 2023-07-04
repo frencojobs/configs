@@ -1,5 +1,11 @@
 # @frenco/eslint-config
 
+## 3.0.1
+
+### Patch Changes
+
+- 7b38948: Fix TypeScript 5 deprecations.
+
 ## 3.0.0
 
 ### Major Changes
