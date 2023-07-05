@@ -1,5 +1,11 @@
 # @frenco/tsconfig
 
+## 2.0.0
+
+### Major Changes
+
+- a70a504: Removed `verbatimModuleSyntax` because it doesn't play well with `esModuleInterop`. It's a breaking change.
+
 ## 1.0.1
 
 ### Patch Changes
