@@ -4,7 +4,19 @@ module.exports = {
   plugins: ['@typescript-eslint'],
   rules: {
     '@typescript-eslint/no-non-null-assertion': 'off',
+    // use Array<T> instead of T[] for complex types
     '@typescript-eslint/array-type': ['warn', {default: 'array-simple'}],
+    // we'll allow _* for unused variables
+    '@typescript-eslint/no-unused-vars': [
+      'warn',
+      {
+        argsIgnorePattern: '^_',
+        varsIgnorePattern: '^_',
+        caughtErrorsIgnorePattern: '^_',
+      },
+    ],
+    // we use const enums most of the time so enum comparisons are safe
+    '@typescript-eslint/no-unsafe-enum-comparison': 'off',
   },
   extends: [
     // recommended eslint config
