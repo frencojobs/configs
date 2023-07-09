@@ -1,5 +1,11 @@
 # @frenco/eslint-config
 
+## 3.1.0
+
+### Minor Changes
+
+- 4946088: Add new rules for eslint.
+
 ## 3.0.1
 
 ### Patch Changes
