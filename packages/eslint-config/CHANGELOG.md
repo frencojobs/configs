@@ -1,5 +1,11 @@
 # @frenco/eslint-config
 
+## 3.1.1
+
+### Patch Changes
+
+- 582d63b: Override `no-unsafe-enum-comparison` rule properly.
+
 ## 3.1.0
 
 ### Minor Changes
