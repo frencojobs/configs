@@ -15,8 +15,6 @@ module.exports = {
         caughtErrorsIgnorePattern: '^_',
       },
     ],
-    // we use const enums most of the time so enum comparisons are safe
-    '@typescript-eslint/no-unsafe-enum-comparison': 'off',
   },
   extends: [
     // recommended eslint config
@@ -37,6 +35,11 @@ module.exports = {
         // enable strict rules only for non-test files
         'plugin:@typescript-eslint/strict',
       ],
+      rules: {
+        // have to place this here because it's in the strict config
+        // we use const enums most of the time so enum comparisons are safe
+        '@typescript-eslint/no-unsafe-enum-comparison': 'off',
+      },
     },
     {
       files: ['*.test.ts', '*.spec.ts'],
